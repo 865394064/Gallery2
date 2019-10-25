@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="574dp"
+    android:id="@+id/relaphoto"
+    android:focusable="true"
+    android:clickable="true"
+     android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="wrap_content"         
+        android:layout_height="wrap_content"     
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"    
+       >    
+
+        <TextView
+            android:id="@+id/photohead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:text="@string/photo_gallery_icloud"
+            android:textSize="25dip" />
+
+        <TextView
+            android:id="@+id/photomess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:gravity="center"
+            android:paddingLeft="60dip"
+            android:paddingRight="60dip"
+            android:textSize="15dip"
+            android:text="@string/photo_gallery_video" />
+
+        <Button
+            android:id="@+id/photointent"
+            android:layout_width="130dp"
+            android:layout_height="30dip"    
+            android:layout_marginTop="24dip"
+            android:gravity="center"
+            android:background="@drawable/iphone_shereing"
+            android:textSize="13dip"
+            android:text="@string/photo_gallery_start" 
+            android:textColor="@color/iphone_buttom_text_shareing" />
+    </LinearLayout>
+</RelativeLayout>

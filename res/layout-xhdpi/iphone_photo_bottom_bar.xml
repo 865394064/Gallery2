@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iphone_photo_bottom_bar"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@drawable/iphone_bottom_navigation_bar_bg">
+        
+        <LinearLayout 
+            android:id="@+id/iphone_photo_bottom_bar_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView 
+                android:id="@+id/iphone_photo_bottom_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/iphone_album_bottom_share_icon"/>
+                <!--
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="3dip"
+                android:paddingBottom="5dip"-->
+                
+            <ImageView 
+                android:id="@+id/iphone_photo_bottom_love"
+                android:layout_width="26dip"
+                android:layout_height="26dip"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/iphone_gallery_love_press"/>
+                <!--
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:focusable="true"
+                android:clickable="true"
+                android:paddingBottom="5dip"-->
+            
+            <ImageView 
+                android:id="@+id/iphone_photo_bottom_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/edit_button_bg"/>
+		  <!--del by scq:
+                android:layout_centerInParent="true"
+		  android:visibility="visible"
+                android:text="@string/iphone_photo_top_edit_btn_text"
+                android:textSize="15sp"
+                android:textColor="@color/iphone_album_bottom_add_to_text_color"-->
+            
+            <ImageView 
+                android:id="@+id/iphone_photo_bottom_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/iphone_album_bottom_delete_icon"/>
+                <!--
+                android:layout_alignParentRight="true"
+                android:paddingRight="3dip"
+                android:paddingBottom="5dip"-->
+        </LinearLayout>
+        
+        
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iphone_bottom_navigation_bar"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+		android:background="@color/iphone_delete_pop_group_dark_bg_color">
+    <LinearLayout 
+        android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+            android:padding="5dp"
+			android:layout_marginBottom="10dp">
+            
+        <LinearLayout 
+            android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+                android:background="@drawable/iphone_delete_pop_group_bg">
+            <TextView 
+                android:id="@+id/iphone_delete_pop_delete_description"
+					android:layout_width="wrap_content"
+                    android:layout_height="50dip"
+                    android:minWidth="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/iphone_delete_pop_description_text_color"
+                    android:textSize="13dp"
+                    android:text="@string/iphone_delete_pop_description_text"
+					android:padding="14dp"/>
+                
+            <View 
+                android:id="@+id/iphone_delete_pop_delete_seperator"
+					android:layout_width="match_parent"
+	    	        android:layout_height="1px"
+	    	        android:background="@color/iphone_share_pop_window_seperator_color"/>
+                
+            <TextView 
+                android:id="@+id/iphone_delete_pop_delete_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/iphone_delete_pop_delete_bg"
+                    android:textColor="@color/iphone_delete_pop_delete_text_color"
+                    android:textSize="22dp"
+                    android:text="@string/iphone_delete_pop_delete_text"
+					android:gravity="center"
+					android:padding="8dp"/>
+            </LinearLayout>
+
+        <TextView 
+            android:id="@+id/iphone_delete_pop_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/iphone_delete_pop_cencel_bg"
+            android:textColor="@color/iphone_share_pop_cancel_text_color"
+            android:textSize="22dp"
+            android:text="@string/iphone_delete_pop_cancel_text"
+            android:gravity="center"
+            android:padding="8dp"/>
+    </LinearLayout>
+</RelativeLayout>
+

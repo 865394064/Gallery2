@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iphone_album_top_bar"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@drawable/iphone_album_set_top_bar_bg">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+			<RelativeLayout android:id="@+id/iphone_album_top_normal_layout"
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent">
+				<Button android:id="@+id/iphone_album_top_back_btn"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_alignParentLeft="true"
+		           android:layout_centerVertical="true"
+			   android:gravity="left|center_vertical"
+		           android:text="@string/iphone_album_top_back_btn_text"
+		           android:textColor="@color/iphone_top_bar_btn_text_color"
+		           android:textSize="18dp"
+		           android:background="@drawable/iphone_back_btn_bg"
+		           android:visibility="gone"/>
+
+		       <TextView android:id="@+id/iphone_album_title"
+		           	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+		            android:text="@string/iphone_album_title_text"
+		            android:textSize="18dp"
+		            android:textColor="@color/iphone_album_set_title_text_color"/> 
+			
+				<Button android:id="@+id/iphone_album_top_select_btn"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_alignParentRight="true"
+		           android:layout_centerVertical="true"
+		           android:text="@string/iphone_album_top_select_btn_text"
+		           android:textColor="@color/iphone_top_bar_btn_text_color"
+		           android:textSize="18dp"
+		           android:background="@android:color/transparent"/>
+
+				<Button android:id="@+id/iphone_album_top_cancel_btn"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_alignParentRight="true"
+		           android:layout_centerVertical="true"
+		           android:text="@android:string/cancel"
+		           android:textColor="@color/iphone_top_bar_btn_text_color"
+		           android:textSize="18dp"
+		           android:background="@android:color/transparent"
+		           android:visibility="gone"/>
+			</RelativeLayout>
+
+			<RelativeLayout android:id="@+id/iphone_album_top_select_layout"
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+				android:visibility="gone">
+				<TextView android:id="@+id/iphone_album_select_count"
+		           	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+		            android:text="@string/iphone_album_select_count_default_text"
+		            android:textSize="18dp"
+		            android:textColor="@color/iphone_album_set_title_text_color"/> 
+			
+				<Button android:id="@+id/iphone_album_top_cancel_select_btn"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_alignParentRight="true"
+		           android:layout_centerVertical="true"
+		           android:text="@android:string/cancel"
+		           android:textColor="@color/iphone_top_bar_btn_text_color"
+		           android:textSize="18dp"
+		           android:background="@android:color/transparent"/>
+			</RelativeLayout>
+        </RelativeLayout>
+</RelativeLayout>

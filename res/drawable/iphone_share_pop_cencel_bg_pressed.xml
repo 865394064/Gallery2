@@ -1,0 +1,3 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">    
+    <solid android:color="@color/iphone_share_pop_cencel_bg_color_pressed"/>      
+</shape>   

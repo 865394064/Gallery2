@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iphone_bottom_share_pop_window"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@drawable/iphone_bottom_share_pop_window_bg">
+        
+    	<LinearLayout android:orientation="vertical"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	    <LinearLayout android:orientation="horizontal"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content">
+    	        
+    	        <ImageView android:id="@+id/iphone_share_pop_top_air_port"
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content"
+    	            android:layout_gravity="left|center_vertical"
+    	            android:src="@drawable/iphone_share_pop_top_air_port_icon"/>
+    	        
+    	        <LinearLayout android:orientation="vertical"
+    	            android:layout_width="0dp"
+    	            android:layout_weight="1"
+    	            android:layout_height="wrap_content"
+    	            android:layout_gravity="center_vertical"
+    	            android:padding="10dp">
+    	            
+    	            <TextView android:layout_width="wrap_content"
+    	                android:layout_height="wrap_content"
+    	                android:layout_gravity="left"
+    	                android:textColor="@android:color/black"
+    	                android:textSize="15sp"
+    	                android:text="@string/iphone_share_pop_top_air_port_title_text"/>
+    	            
+    	            <TextView android:layout_width="wrap_content"
+    	                android:layout_height="wrap_content"
+    	                android:layout_gravity="left"
+    	                android:maxWidth="168dp"
+    	                android:textColor="@android:color/black"
+    	                android:textSize="10sp"
+    	                android:text="@string/iphone_share_pop_top_air_port_description_text"/>
+    	        </LinearLayout>
+    	        
+    	    </LinearLayout>
+    	    
+    	    <View android:layout_width="match_parent"
+    	        android:layout_height="1px"
+    	        android:background="@color/iphone_share_pop_window_seperator_color"/>
+    	    
+    	    <HorizontalScrollView android:id="@+id/iphone_share_pop_share_scroll_view"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:scrollbars="none">
+    	        <LinearLayout android:id="@+id/iphone_share_pop_share_scroll_view_container"
+					android:orientation="horizontal"
+    	            android:layout_width="match_parent"
+    	            android:layout_height="wrap_content">
+				</LinearLayout>
+    	    </HorizontalScrollView>
+    	    
+    	    <View android:layout_width="match_parent"
+    	        android:layout_height="1px"
+    	        android:background="@color/iphone_share_pop_window_seperator_color"/>
+    	    
+    	    <HorizontalScrollView android:id="@+id/iphone_share_pop_action_scroll_view"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:scrollbars="none">
+    	        <LinearLayout android:orientation="horizontal"
+    	            android:layout_width="match_parent"
+    	            android:layout_height="wrap_content">
+			        <TextView android:id="@+id/iphone_share_pop_action_to_slideshow"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_slideshow_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_slideshow_text"
+						android:gravity="center"/>
+			        
+			        <TextView android:id="@+id/iphone_share_pop_action_to_contacts"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_contacts_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_contacts_text"
+						android:gravity="center"/>
+			        
+			        <TextView android:id="@+id/iphone_share_pop_action_to_wallpaper"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_wallpaper_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_wallpaper_text"
+						android:gravity="center"/>
+			        
+			        <TextView android:id="@+id/iphone_share_pop_action_to_edit"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_edit_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_edit_text"
+						android:gravity="center"/>
+			        
+			        <TextView android:id="@+id/iphone_share_pop_action_to_rotate_left"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_rotate_left_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_rotate_left_text"
+						android:gravity="center"/>
+			        
+			        <TextView android:id="@+id/iphone_share_pop_action_to_rotate_right"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_rotate_right_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_rotate_right_text"
+						android:gravity="center"/>
+			        
+			        <TextView android:id="@+id/iphone_share_pop_action_to_clip"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:padding="5dp"
+			            android:drawableTop="@drawable/iphone_share_pop_action_to_clip_icon"
+			            android:textColor="@android:color/black"
+			            android:textSize="11sp"
+			            android:text="@string/iphone_share_pop_action_to_clip_text"
+						android:gravity="center"/>
+				</LinearLayout>
+    	    </HorizontalScrollView>
+    	    
+    	    <TextView android:id="@+id/iphone_share_pop_cancel"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:padding="5dp"
+    	        android:background="@drawable/iphone_share_pop_cencel_bg"
+				android:text="@string/iphone_share_pop_cancel_text"
+				android:textColor="@color/iphone_share_pop_cancel_text_color"
+				android:textSize="22sp"
+				android:gravity="center"/>
+    	</LinearLayout>
+        
+</RelativeLayout>

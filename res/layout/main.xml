@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gallery_root"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <include layout="@layout/gl_root_group"/>
+      <LinearLayout
+        android:id="@+id/gallery_nophoto"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView
+            android:id="@+id/photohorvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dip"
+            android:gravity="center"
+            android:text="@string/empty_album"
+            android:visibility="gone"
+            android:textSize="25dip" />
+
+        <TextView
+            android:id="@+id/phototext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="65dip"
+            android:paddingRight="65dip"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textSize="15dip"
+            android:text="@string/nophoto_gallery_video" />
+            </LinearLayout>
+    <FrameLayout android:id="@+id/header"
+            android:visibility="gone"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/footer"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>

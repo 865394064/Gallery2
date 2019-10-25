@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <dimen name="appwidget_width">202dp</dimen>
+    <dimen name="appwidget_height">202dp</dimen>
+    <dimen name="stack_photo_width">180dp</dimen>
+    <dimen name="stack_photo_height">135dp</dimen>
+
+    <!-- configuration for album set page -->
+    <integer name="albumset_rows_land">2</integer>
+    <integer name="albumset_rows_port">3</integer>
+	<!-- changed by yuanhuawei from 7dp to 2dp-->
+    <dimen name="albumset_padding_top">2dp</dimen>
+	<!-- changed by yuanhuawei from 7dp to 2dp-->
+    <dimen name="albumset_padding_bottom">2dp</dimen>
+	<!-- changed by yuanhuawei from 7dp to 2dp-->
+    <dimen name="albumset_slot_gap">2dp</dimen>
+	<!-- Begin: added by yuanhuawei 20130808-->
+	<dimen name="albumset_slot_width">360dp</dimen>
+	<dimen name="albumset_slot_height">90dp</dimen>
+	<!-- End: added by yuanhuawei 20130808-->
+
+	<!-- changed by yuanhuawei from 30dp to 80dp-->
+    <dimen name="albumset_label_background_height">90dp</dimen>
+    <dimen name="albumset_title_offset">11dp</dimen>
+    <dimen name="albumset_count_offset">11dp</dimen>
+	<!-- changed by yuanhuawei from 12sp to 17sp-->
+    <dimen name="albumset_title_font_size">17sp</dimen>
+	<!-- changed by yuanhuawei from 9sp to 13sp-->
+    <dimen name="albumset_count_font_size">13sp</dimen>
+	<!-- changed by yuanhuawei from 2dp to 90dp-->
+    <dimen name="albumset_left_margin">101dp</dimen>
+    <dimen name="albumset_title_right_margin">22dp</dimen>
+	<!-- changed by yuanhuawei from 25dp to 5dp-->
+    <dimen name="albumset_icon_size">5dp</dimen>
+
+    <!-- configuration for album page -->
+	<!-- changed by yuanhuawei from 2 to 2-->
+    <integer name="album_rows_land">2</integer>
+	<!-- changed by yuanhuawei from 4 to 6-->
+    <integer name="album_rows_port">6</integer>
+	<!-- changed by yuanhuawei from 5dp to 2dp-->
+    <dimen name="album_slot_gap">2dp</dimen>
+    <!-- Begin: added by yuanhuawei 20130808-->
+	<dimen name="album_slot_width">88dp</dimen>
+	<dimen name="album_slot_height">88dp</dimen>
+    <!-- End: added by yuanhuawei 20130808-->
+
+    <!-- configuration for manage page -->
+    <dimen name="cache_pin_size">27dp</dimen>
+    <dimen name="cache_pin_margin">9dp</dimen>
+
+    <!-- for manage cache bar -->
+    <dimen name="manage_cache_bottom_height">54dp</dimen>
+
+    <!--  configuration for filtershow UI -->
+    <dimen name="thumbnail_size">108dip</dimen>
+    <dimen name="thumbnail_margin">3dip</dimen>
+    
+    <!-- for MAV first run view -->
+    <dimen name="mav_firstrun_text_marginleft">36dp</dimen>
+    <dimen name="mav_firstrun_text_margintop">74dp</dimen>
+    <dimen name="mav_firstrun_btn_marginright">36dp</dimen>
+    <dimen name="mav_firstrun_btn_marginbottom">74dp</dimen>
+    
+    <dimen name="title_backbtn_max_width">150dp</dimen>
+</resources>

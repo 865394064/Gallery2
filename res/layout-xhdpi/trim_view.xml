@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<!-- Begin: changed by yuanhuawei 20130907 -->
+	<RelativeLayout
+        android:id="@+id/trim_view_root"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<com.mediatek.gallery3d.video.MTKVideoView android:id="@+id/surface_view"
+		        android:visibility="visible"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<!-- End: changed by yuanhuawei 20130907 -->
+
+	<!-- Begin: added by yuanhuawei 20130907 -->
+	<RelativeLayout android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:background="@drawable/iphone_album_set_top_bar_bg">
+        <Button android:id="@+id/iphone_video_top_cancel_btn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_centerVertical="true"
+               android:text="@android:string/cancel"
+               android:textColor="@color/iphone_top_bar_btn_text_color"
+               android:textSize="15sp"
+               android:background="@android:color/transparent"/>
+        
+         <TextView android:id="@+id/iphone_video_trim_top_bar_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:textSize="17sp"
+	         android:textColor="@color/iphone_album_set_title_text_color"
+	         android:text="@string/iphone_video_trim_top_bar_title_text"/>
+         
+         <Button android:id="@+id/iphone_video_trim_top_save_btn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:text="@string/iphone_filter_show_top_done_text"
+               android:textColor="@color/iphone_top_bar_btn_text_color"
+               android:textSize="15sp"
+               android:background="@android:color/transparent"/>
+    </RelativeLayout>
+	<!-- End: added by yuanhuawei 20130907 -->
+</RelativeLayout>

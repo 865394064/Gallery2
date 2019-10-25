@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="default_background">#000</color>
+
+    <!-- configuration for album set page -->
+	<!-- changed by yuanhuawei from #1A1A1A to #ffffff-->
+    <color name="albumset_background">#ffffff</color>
+	<!-- changed by yuanhuawei from #333-->
+    <color name="albumset_placeholder">#ffffffff</color>
+	<!-- changed by yuanhuawei from #EE414143 to #00414143-->
+    <color name="albumset_label_background">#00414143</color>
+	<!-- changed by yuanhuawei from #FBFBFB to #000000-->
+    <color name="albumset_label_title">#000000</color>
+	<!-- changed by yuanhuawei from #A9ABAD to #000000-->
+    <color name="albumset_label_count">#000000</color>
+
+    <!-- configuration for album page -->
+	<!-- changed by yuanhuawei from #1A1A1A to #ffffff-->
+    <color name="album_background">#ffffff</color>
+	<!-- changed by yuanhuawei from #333-->
+    <color name="album_placeholder">#ffffffff</color>
+
+    <!-- configuration for photo page -->
+	<!-- changed by yuanhuawei from #1A1A1A to #ffffffff 20130814 -->
+    <color name="photo_background">#ffffffff</color>
+	<color name="photo_fullscreen_background">#ff000000</color>
+	<color name="camera_background">#000000</color>
+	<!-- changed by yuanhuawei from #333 to #ffffff 20130910 -->
+    <color name="photo_placeholder">#ffffff</color>
+
+    <!-- configuration for manage cache page -->
+    <color name="cache_background">#1A1A1A</color>
+    <color name="cache_placeholder">#333</color>
+
+    <color name="bitmap_screennail_placeholder">#333</color>
+
+    <color name="slideshow_background">#1A1A1A</color>
+
+    <color name="button_dark_transparent_background">#6000</color>
+
+	<!-- Begin:added by yuanhuawei 20130809-->
+	<color name="iphone_bottom_navigation_bar_text_color_focused">#ff007aff</color>
+	<color name="iphone_bottom_navigation_bar_text_color_pressed">#ff007aff</color>
+	<color name="iphone_bottom_navigation_bar_text_color_normal">#ff979797</color>
+
+	<color name="iphone_album_bottom_add_to_text_color_normal">#ff007aff</color>
+	<color name="iphone_album_bottom_add_to_text_color_disabled">#ff979797</color>
+	<color name="iphone_album_bottom_add_to_text_color_pressed">#80007aff</color>
+	<color name="iphone_album_bottom_add_to_text_color_focused">#80007aff</color>
+
+	<color name="iphone_share_pop_window_seperator_color">#ffa2a2a2</color>
+
+	<color name="iphone_share_pop_cencel_bg_color_pressed">#ffd5d5d5</color>
+	<color name="iphone_share_pop_cencel_bg_color_focused">#ffd5d5d5</color>
+
+	<color name="iphone_share_pop_cancel_text_color">#ff007aff</color>
+	<color name="iphone_share_pop_icon_text_color">#ff000000</color>
+
+	<color name="iphone_delete_pop_group_bg_color">#fcffffff</color>
+	<color name="iphone_delete_pop_description_text_color">#ffa2a2a2</color>
+	<color name="iphone_delete_pop_delete_text_color">#fffd472b</color>
+	<color name="iphone_delete_pop_group_bg_pressed_color">#fcf4f4f4</color>	
+	<color name="iphone_album_set_title_text_color">#ff000000</color>
+
+	<color name="iphone_top_bar_btn_text_color_normal">#ff007aff</color>
+	<color name="iphone_top_bar_btn_text_color_pressed">#80007aff</color>
+	<color name="iphone_top_bar_btn_text_color_focused">#80007aff</color>
+
+	<color name="iphone_crop_bottom_btn_color_normal">#fff5f4f3</color>
+	<color name="iphone_crop_bottom_btn_color_pressed">#80f5f4f3</color>
+	<color name="iphone_crop_bottom_btn_color_focused">#80f5f4f3</color>
+
+	<color name="iphone_crop_seperator_color">#ff788787</color>
+
+	<color name="iphone_filter_show_top_btn_text_color_normal">#ffffff00</color>
+	<color name="iphone_filter_show_top_btn_text_color_pressed">#80ffff00</color>
+	<color name="iphone_filter_show_top_btn_text_color_focused">#80ffff00</color>
+
+	<color name="iphone_filter_show_top_bar_bg_color">#da000000</color>
+
+	<color name="iphone_delete_pop_group_dark_bg_color">#4c000000</color>
+	<!-- End: added by yuanhuawei 20130809-->
+    <!--begin: added by wangyouyou-->
+    <color name="iphone_delete_pop_group_dark_bg_color">#4c000000</color>
+    <color name="iphone_share_pop_window_seperator_color">#ffa2a2a2</color>
+    <color name="iphone_share_pop_icon_text_color">#ffa2a2a2</color>
+    <!--end: added by wangyouyou-->
+   <!--added by gaojunbin -->
+    <color name="iphone_memory_start_user_color">#007AFF</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+</resources>

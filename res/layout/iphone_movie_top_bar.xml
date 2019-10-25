@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iphone_movie_top_bar"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@drawable/iphone_album_set_top_bar_bg">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+			<Button android:id="@+id/iphone_movie_top_back_btn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_centerVertical="true"
+               android:text="@string/iphone_movie_top_back_btn_text"
+               android:textColor="@color/iphone_top_bar_btn_text_color"
+	       android:gravity="left|center_vertical"
+               android:textSize="17sp"
+               android:background="@drawable/iphone_back_btn_bg"/>
+
+			<LinearLayout android:id="@+id/iphone_photo_top_progress_layout"
+			    android:orientation="horizontal"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerInParent="true"
+			    android:gravity="center">
+			    <TextView android:id="@+id/iphone_movie_topbar_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxLength="20"
+				android:textSize="20sp"
+				android:textColor="@color/iphone_album_set_title_text_color"/> 
+			</LinearLayout>
+           
+        </RelativeLayout>
+</RelativeLayout>
